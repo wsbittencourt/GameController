@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4":{
+            "Games\\":"src/"
+        }
+    },
+    "require": {
+        "php-activerecord/php-activerecord": "^1.2",
+        "phpunit/phpunit": "^7.2"
+    }
+}
