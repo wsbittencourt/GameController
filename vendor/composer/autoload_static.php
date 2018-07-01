@@ -20,10 +20,6 @@ class ComposerStaticInite0e990e7ab254c88f4f70191f8e70fa9
         array (
             'Webmozart\\Assert\\' => 17,
         ),
-        'G' => 
-        array (
-            'Games\\' => 6,
-        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -42,10 +38,6 @@ class ComposerStaticInite0e990e7ab254c88f4f70191f8e70fa9
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'Games\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
@@ -62,6 +54,13 @@ class ComposerStaticInite0e990e7ab254c88f4f70191f8e70fa9
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
+            ),
+        ),
+        'G' => 
+        array (
+            'Games' => 
+            array (
+                0 => __DIR__ . '/../..' . '/src',
             ),
         ),
     );
