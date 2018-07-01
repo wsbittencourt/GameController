@@ -12,8 +12,8 @@ Uma forma simples feita em PHP para controle de emprestimos de jogos.
 
 Recomendo o uso do **XAMPP** como preferência aos quatro primeiros software, e o **Google Chrome** como navegador preferencial.
 
-*[XAMPP](https://www.apachefriends.org/)  
-*[Google Chrome](https://www.google.com/chrome/)
+* [XAMPP](https://www.apachefriends.org/)  
+* [Google Chrome](https://www.google.com/chrome/)
 
 
 ### Instalação
@@ -32,4 +32,4 @@ O usuário padrão do sistema é o *wagner* e senha *123*.
 
 ## Autor
 
-* [Wagner Bittencourt](https://gitlab.com/wsbittencourts)
+* [Wagner Bittencourt](https://gitlab.com/wsbittencourt)
