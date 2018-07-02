@@ -14,7 +14,7 @@ create table Usuarios(
     id varchar(10) not null,
     password varchar(3) not null,
     nome varchar(20) not null,
-    nascimento date,
+    nascimento datetime,
     sexo enum('M','F'),
     telefone varchar(15) not null,
     email varchar(50) not null,
@@ -31,12 +31,13 @@ create table Jogos(
 )default charset = utf8;
 
 create table Emprestimos(
-    data_emprestimo date,
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    data_emprestimo datetime,
     id_emprestado varchar(10) not null,
     jogo varchar(50) not null,
-    data_devolucao date,
-    status enum('E','D') DEFAULT 'E',
-    primary key (data_emprestimo,jogo),
+    data_devolucao datetime,
+    status char(1) default 'E',
+    UNIQUE KEY chave (data_emprestimo,jogo),
     foreign key (id_emprestado) references Usuarios(id),
     foreign key (jogo) references Jogos(titulo)
 )default charset = utf8;
