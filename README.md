@@ -12,8 +12,8 @@ Uma forma simples feita em PHP para controle de emprestimos de jogos.
 
 Recomendo o uso do **XAMPP** como preferência aos quatro primeiros software, e o **Google Chrome** como navegador preferencial.
 
-* [XAMPP](https://www.apachefriends.org/){:target="_blank"} 
-* [Google Chrome](https://www.google.com/chrome/){:target="_blank"}
+* [XAMPP](https://www.apachefriends.org/) 
+* [Google Chrome](https://www.google.com/chrome/)
 
 
 ### Instalação
@@ -27,9 +27,9 @@ Recomendo o uso do **XAMPP** como preferência aos quatro primeiros software, e 
 
 ### Como utilizar 
 
-Para utilizar o GameController, é necessário iniciar os serviços do Apache e do banco MySQL. Em seguida se dirigir ao endereço [http://localhost/GameController/](http://localhost/GameController/){:target="_blank"}.
+Para utilizar o GameController, é necessário iniciar os serviços do Apache e do banco MySQL. Em seguida se dirigir ao endereço [http://localhost/GameController/](http://localhost/GameController/).
 O usuário padrão do sistema é o *wagner* e senha *123*.
 
 ## Autor
 
-* [Wagner Bittencourt](https://gitlab.com/wsbittencourt){:target="_blank"}
+* [Wagner Bittencourt](https://gitlab.com/wsbittencourt)
