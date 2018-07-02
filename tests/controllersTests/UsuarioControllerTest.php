@@ -76,6 +76,8 @@ class UsuarioControllerTest extends TestCase{
         
         UsuarioController::update($u);
         
+        $u->nome = "Sra. Maria";
+        
         $result = UsuarioController::getUser($u->id);
         
         $this->assertNotEquals($u->to_array(),$result->to_array());

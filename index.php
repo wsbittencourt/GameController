@@ -25,7 +25,7 @@
                     <p class="input_title">Usuário</p>
                     <input type="text" id="inputUser" class="login_box" placeholder="wagner" required autofocus>
                     <p class="input_title">Senha</p>
-                    <input type="password" id="inputPassword" class="login_box" placeholder="******" required>
+                    <input type="password" id="inputPassword" class="login_box" placeholder="***" required>
                     <div id="remember" class="checkbox">
                         <label>
 
