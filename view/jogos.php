@@ -70,8 +70,9 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 ">
                         <span class="t1">Jogos</span>&ensp;
-                        <button type="button" class="btn btn-xs btn-info">Cadastrar jogo</button>
+                        <a class="btn btn-xs btn-info">Cadastrar jogo</a>
                     </div>
+                    
                 </div>
             </div>
             <div>
