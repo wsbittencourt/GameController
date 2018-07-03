@@ -2,7 +2,6 @@
 
 namespace src\controllers;
 use src\models\Usuario;
-use \ActiveRecord\RecordNotFound;
 
 class UsuarioController{
     public static function create(Usuario $u){

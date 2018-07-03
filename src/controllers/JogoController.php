@@ -1,6 +1,6 @@
 <?php
 
-namespace src\controllers;
+//namespace src\controllers;
 use src\models\Jogo;
 use src\models\Usuario;
 use \ActiveRecord\RecordNotFound;

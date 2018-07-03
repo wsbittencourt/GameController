@@ -12,6 +12,10 @@ class ComposerStaticInite0e990e7ab254c88f4f70191f8e70fa9
     );
 
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'src\\' => 4,
+        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -28,6 +32,10 @@ class ComposerStaticInite0e990e7ab254c88f4f70191f8e70fa9
     );
 
     public static $prefixDirsPsr4 = array (
+        'src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -54,13 +62,6 @@ class ComposerStaticInite0e990e7ab254c88f4f70191f8e70fa9
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
-            ),
-        ),
-        'G' => 
-        array (
-            'Games' => 
-            array (
-                0 => __DIR__ . '/../..' . '/src',
             ),
         ),
     );

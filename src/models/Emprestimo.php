@@ -1,6 +1,6 @@
 <?php
 
-namespace src\models;
+//namespace src\models;
 
 use ActiveRecord\Model;
 
